@@ -21,7 +21,7 @@ li{
 }
 
 .nav-list li {
-    /* flex-grow: 1; */
+    flex-grow: 0;
     /* flex-shrink: 1; */
 }
 

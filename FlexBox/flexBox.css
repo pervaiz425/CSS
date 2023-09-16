@@ -16,7 +16,7 @@
     background: pink;
     align-self: flex-start;
   }
-  
+
   .columns > * {
     flex-basis: 100%;
   }
@@ -26,12 +26,15 @@
         flex-direction: row;
     }
   }
-  .
- /* align-item can be applied on the single element inside the fflex-box but justify-content can't */
-/* The default flex-shrink is set to flex-shrink:1 */
+  
+ /* align-item can be applied on the single element inside the fflex-box but justify-content can't 
+ The default flex-shrink is set to flex-shrink:1 
 
-  /* To understand flex: grow 1;
-  The `flex-grow` property is used to determine how much an item within a flex container should grow in relation to other items when there is available space in the container. When you set `flex-grow` to a value of `1` for a flex item, it means that the item should grow at the same rate as other items with a `flex-grow` value of `1` when there is extra space in the flex container. 
+   To understand flex: grow 1;
+  The `flex-grow` property is used to determine how much an item within a flex container 
+  should grow in relation to other items when there is available space in the container. 
+  When you set `flex-grow` to a value of `1` for a flex item, it means that the item should 
+  grow at the same rate as other items with a `flex-grow` value of `1` when there is extra space in the flex container. 
 
 Here's how it works:
 
@@ -52,8 +55,8 @@ Here's an example:
 
 .flex-item {
   flex-grow: 1;
-  /* other properties like flex-shrink and flex-basis can be set here */
-/* }
+   other properties like flex-shrink and flex-basis can be set here 
+ }
 ```
 
 In this example, all `.flex-item` elements within the `.flex-container` 
@@ -62,4 +65,4 @@ the container, it will be distributed evenly among these items.
 
 This property is particularly useful for creating flexible layouts where you want items 
 to grow and distribute available space proportionally. It allows you to control how much
-emphasis each item places on growth relative to others within the same flex container. */ 
+emphasis each item places on growth relative to others within the same flex container.  */

@@ -9,12 +9,10 @@
   }
 
   .columns > * {
-    flex-shrink: 1; 
-    flex-grow: 1;
-    flex-basis: 0;
+    flex-basis: 100%;
   }
 
-
+/* The default flex-shrink is set to flex-shrink:1 */
 
   /* To understand flex: grow 1;
   The `flex-grow` property is used to determine how much an item within a flex container should grow in relation to other items when there is available space in the container. When you set `flex-grow` to a value of `1` for a flex item, it means that the item should grow at the same rate as other items with a `flex-grow` value of `1` when there is extra space in the flex container. 

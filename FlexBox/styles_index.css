@@ -25,4 +25,4 @@ li{
     /* flex-shrink: 1; */
 }
 
-Justify content does not work when we have the flex-grow set to 1.
+/* Justify content does not work when we have the flex-grow set to 1. */

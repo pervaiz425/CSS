@@ -6,11 +6,17 @@
   .columns{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    align-items: center;
+    /* height: 100vh; */
     gap: 2rem;
     border: 10px solid pink;
   }
 
+  .card:nth-child(2){
+    background: pink;
+    align-self: flex-start;
+  }
+  
   .columns > * {
     flex-basis: 100%;
   }
@@ -20,7 +26,8 @@
         flex-direction: row;
     }
   }
-
+  .
+ /* align-item can be applied on the single element inside the fflex-box but justify-content can't */
 /* The default flex-shrink is set to flex-shrink:1 */
 
   /* To understand flex: grow 1;

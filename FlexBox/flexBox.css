@@ -5,11 +5,20 @@
   
   .columns{
     display: flex;
+    flex-direction: column;
+    height: 100vh;
     gap: 2rem;
+    border: 10px solid pink;
   }
 
   .columns > * {
     flex-basis: 100%;
+  }
+
+  @media (min-width: 750px){
+    .columns{
+        flex-direction: row;
+    }
   }
 
 /* The default flex-shrink is set to flex-shrink:1 */

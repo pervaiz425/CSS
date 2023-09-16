@@ -1,0 +1,51 @@
+  .card{
+    padding: 1rem;
+    background-color: lightgreen;
+  }
+  
+  .columns{
+    display: flex;
+    gap: 2rem;
+  }
+
+  .columns > * {
+    flex-shrink: 1; 
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+
+
+
+  /* To understand flex: grow 1;
+  The `flex-grow` property is used to determine how much an item within a flex container should grow in relation to other items when there is available space in the container. When you set `flex-grow` to a value of `1` for a flex item, it means that the item should grow at the same rate as other items with a `flex-grow` value of `1` when there is extra space in the flex container. 
+
+Here's how it works:
+
+1. **Equal Distribution**: If all flex items within the same flex container have `flex-grow: 1`, 
+it means that they will share the available space equally along the main axis. If there is extra 
+space beyond the combined size of the items, each item will receive an equal portion of that space.
+
+2. **Proportional Growth**: If some items have a `flex-grow` value of `1` while others have a 
+different value (e.g., `2` or `0.5`), the items with a higher `flex-grow` value will grow proportionally 
+more than those with a lower value when there's extra space to distribute.
+
+Here's an example:
+
+```css
+.flex-container {
+  display: flex;
+}
+
+.flex-item {
+  flex-grow: 1;
+  /* other properties like flex-shrink and flex-basis can be set here */
+/* }
+```
+
+In this example, all `.flex-item` elements within the `.flex-container` 
+will have equal growth potential (`flex-grow: 1`). If there is extra space available in 
+the container, it will be distributed evenly among these items.
+
+This property is particularly useful for creating flexible layouts where you want items 
+to grow and distribute available space proportionally. It allows you to control how much
+emphasis each item places on growth relative to others within the same flex container. */ 
